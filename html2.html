@@ -1,0 +1,109 @@
+<html>
+<head><br><center><font color="Black"><font size="30"><b><u>LEO CABS</u></b></font size></font color><center></br>
+<style>
+table, th, td {
+  border: 1.5px solid black;
+  border-collapse: collapse;
+}
+body {
+  background-image: url('https://images3.alphacoders.com/104/1044851.jpg');
+}
+</style>
+</head>
+
+<body>
+<form action="html3.html">
+<h2><b><u>BODY TYPE :</u><b></h2>
+
+<input 
+  type="radio" name="type" 
+  id="sad" class="input-hidden" />
+<label for="Sedan">
+  <img 
+    src="C:\Users\ELANGO\Downloads\sedan.png" width="120" height="120"
+    alt="I'm sedan" />
+</label>
+
+<input 
+  type="radio" name="type"
+  id="happy" class="input-hidden" />
+<label for="HatchBack">
+  <img 
+    src="C:\Users\ELANGO\Downloads\hatchback.png" width="160" height="91" 
+    alt="Hatchback" />
+</label>
+
+<input 
+  type="radio" name="type"
+  id="happy" class="input-hidden" />
+<label for="SUV">
+  <img 
+    src="C:\Users\ELANGO\Downloads\suv.png" width="130" height="80" 
+    alt="SUV" />
+</label>
+
+<br></br>
+
+<h2><b><u>PRICE LIST</u></b></h2>
+<table>
+  <tr>
+    <th>CARS</th>
+    <th colspan="2">RATE / KM
+    <tr>
+    <td></td>
+    <td>NON-AC</td>
+    <td>AC</td>
+    </tr>
+    </th>
+  </tr>
+
+  <tr>
+    <td>Sedan</td>
+    <td>15</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>HatchBack</td>
+    <td>10</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>SUV</td>
+    <td>20</td>
+    <td>25</td>
+  </tr>
+</table>
+<br>
+<label for="km">NO OF KILOMETERS:</label>
+<input type="text" id="kms" name="km">
+<br>
+<br>
+<label for="cars"><b>CARS AVAILABLE :</b></label>
+
+<select name="cars" id="cars">
+  <option value=" Swift Dzire">Swift Dzire</option>
+  <option value=" Etios">Etios</option>
+  <option value=" Innova">Innova</option>
+  <option value=" Indica">Indica</option>
+ <option value=" Omni">Omni</option>
+ <option value=" Celerio">Celerio</option>
+</select>
+<br>
+<h2><b><u>OTHER DETAILS</u></b></h2>
+<label for="fname">SELF-DRIVE</label>
+<input type="radio" id="fname" name="fname">
+<label for="f1name">WITH DRIVER</label>
+<input type="radio" id="f1name" name="f1name">
+<br>
+<br>
+<label for="ph">PHONE NUMBER :</label>
+<input type="text" id="ph" name="ph">
+<br>
+<br>
+<input type="SUBMIT" value="CONFIRM">
+<input type="RESET" value="RESET"><br>
+</form>
+
+
+</body>
+</html>
